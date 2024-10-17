@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import NavBar from "../components/Header/Navbar"
 import Hero from "../components/Header/Hero/Hero"
 const ContactPage = () => {
