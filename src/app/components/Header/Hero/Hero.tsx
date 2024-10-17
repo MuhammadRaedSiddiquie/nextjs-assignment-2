@@ -1,5 +1,6 @@
+
 import cssStyle from "./hero.module.css"
-export default function Hero(prop){
+export default function Hero(prop: { heading: string | number | bigint | boolean | null}){
     return(
         <div className={cssStyle.div}>
             <span className={cssStyle.span}></span>
