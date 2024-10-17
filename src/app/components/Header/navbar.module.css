@@ -23,7 +23,18 @@
 }
 .ul li{
     font-size: 16px;
+    position: relative;
 }
+.ul li::after{
+    content: '';
+    width: 100%;
+    background-color: #fff;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
 .button{
     border: 2px solid rgb(255 150 0);
     background-color: rgb(255 202 0);
