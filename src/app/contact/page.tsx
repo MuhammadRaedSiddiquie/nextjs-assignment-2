@@ -1,5 +1,6 @@
 import Link from "next/link";
 import NavBar from "../components/Header/Navbar"
+import Hero from "../components/Header/Hero/Hero"
 const ContactPage = () => {
   return (
     <html lang="en">
@@ -10,9 +11,7 @@ const ContactPage = () => {
       </head>
       <body>
         <NavBar></NavBar>
-        <main className="bg-blue-100 h-screen">
-          <h1 className="text-5xl">Contact Page</h1>
-        </main>
+        <Hero heading="Contact Page"></Hero>
 
       </body>
     </html>
